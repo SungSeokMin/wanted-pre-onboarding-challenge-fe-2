@@ -41,7 +41,7 @@ const onCreate = (content, category, tags) => {};
  * - 모든 할 일을 조회할 수 있다.
  * @returns {TodoListType}
  */
-const onRead = () => {
+const onGet = () => {
   // api call ...
   return fakeTodoList;
 };
@@ -51,7 +51,7 @@ const onRead = () => {
  * @param {number} id - 아이디
  * @returns {TodoType}
  */
-const onReadById = (id) => {
+const onGetById = (id) => {
   // api call ... By id
   return fakeTodo;
 };
