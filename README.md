@@ -1,5 +1,7 @@
 # 💎 프리온보딩 프론트엔드 챌린지 2월 - TypeScript
 
+### [jsDoc 배포](https://sungseokmin.github.io/wanted-pre-onboarding-challenge-fe-2/)
+
 ## 저를 소개합니다
 
 오류 없는 코드를 작성하고 싶어하는 개발자 성석민 입니다 😁  
