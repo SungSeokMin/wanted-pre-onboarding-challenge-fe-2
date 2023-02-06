@@ -10,23 +10,11 @@
  * @property {boolean} isComplete - 완료여부 (required)
  */
 
-/** @type {TodoType} */
-const fakeTodo = {
-  postId: 1,
-  content: '프리온보딩 프론트엔드 챌린지 2월',
-  category: 'typescript',
-  tags: [],
-  isComplete: false,
-};
-
 /**
  * Todo List Type
  * @typedef {Array<TodoType>} TodoListType
  * @property {TodoType} todo - 할 일 (required)
  */
-
-/** @type {TodoListType} */
-const fakeTodoList = [fakeTodo];
 
 /**
  * - 할 일을 추가 한다
@@ -39,22 +27,16 @@ const onCreate = (content, category, tags) => {};
 
 /**
  * - 모든 할 일을 조회할 수 있다.
- * @returns {TodoListType}
+ * @returns {void}
  */
-const onGet = () => {
-  // api call ...
-  return fakeTodoList;
-};
+const onGet = () => {};
 
 /**
  * - ID를 기반으로 특정 할 일을 조회할 수 있다.
  * @param {number} id - 아이디
- * @returns {TodoType}
+ * @returns {void}
  */
-const onGetById = (id) => {
-  // api call ... By id
-  return fakeTodo;
-};
+const onGetById = (id) => {};
 
 /**
  * - ID를 제외한 모든 속성을 수정할 수 있다.
